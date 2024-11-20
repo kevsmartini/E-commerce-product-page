@@ -152,6 +152,14 @@ border-color: var(--light-pink);
 /*media query*/
 
 @media (width <= 700px) {
+
+  .container{
+    min-height: 35vh;
+    background-image: url(assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .card-elements{
     margin: 0 30px ;
   }
